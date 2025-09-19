@@ -29,17 +29,17 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/home',
       routes: {
-        '/splash': (context) =>  Splashscreen(),
+        '/splash': (context) => Splashscreen(),
         '/welcomescreen': (context) => const Welcomescreen(),
         '/auth': (context) => const Authentication(),
         '/login_screen': (context) => const LoginScreen(),
         '/home': (context) => const Homescreen(),
-        '/product': (context) =>  ProductDetailsScreen(),
-        '/basket': (context) =>  MyBasketScreen(),
-        '/drawerdetails': (context) =>  DrawerDetails(),
-        '/order_complete': (context) =>  OrderComplete(),
-        '/trackorder': (context) =>  TrackOrder(),
-        '/fetchPhoto':(context)=>FetchPhoto()
+        '/product': (context) => ProductDetailsScreen(),
+        '/basket': (context) => MyBasketScreen(),
+        '/drawerdetails': (context) => DrawerDetails(),
+        '/order_complete': (context) => OrderComplete(),
+        '/trackorder': (context) => TrackOrder(),
+        '/fetchPhoto': (context) => FetchPhoto(),
       },
     );
   }
